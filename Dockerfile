@@ -3,6 +3,7 @@
 
 FROM sjatgutzmann/docker.centos.tomcat
 MAINTAINER Sven Jörns <sjatgutzmann@gmail.com>
+ARG HTTP_PORT=9898
 
 WORKDIR ${CATALINA_HOME}
 
